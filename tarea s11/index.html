@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Semana 11</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Manipulación del DOM y Validación de Formularios</h1>
+
+    <div id="content">
+        <p>Parrafo 1 <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis soluta incidunt veniam ipsum harum quia, cumque quasi ducimus asperiores veritatis iusto vel distinctio, ut error fuga maiores provident sit adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maiores odio doloremque, libero tenetur dolores cupiditate! Error dignissimos deleniti, tenetur beatae rem rerum veniam commodi delectus corporis non. Illum, atque?.</p>
+        <p>Parrafo 2 <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sunt vero ipsum suscipit, soluta aliquid eaque porro illum quibusdam sint rerum nihil quo id expedita dicta beatae. Provident, sapiente officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur iure dolores sint sit ipsa voluptatem in nulla tempore reprehenderit. Aliquid, repudiandae omnis dolor sint maiores praesentium eos et velit.</p>
+        <p>Parrafo 3 <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptatum esse consectetur nisi. Nulla culpa excepturi provident maiores unde soluta officia, incidunt ad. Natus, illo quia nemo ullam voluptates ipsa!
+        Magni ad quaerat maxime odit sint aperiam nihil, nulla deserunt deleniti? Molestias accusantium id ea vitae velit accusamus, vel illo numquam adipisci maxime consequuntur in dolorum placeat iure veniam nam!</p>
+    </div>
+
+    <button onclick="cambiarEstilosParrafos()">Cambiar Estilos de Párrafos</button>
+    <button onclick="estilizarParrafosPares()">Estilizar Párrafos Pares</button>
+    <button onclick="estilizarParrafosImpares()">Estilizar Párrafos Impares</button>
+    <button onclick="mostrarImagenes()">Mostrar Imágenes</button>
+    <button onclick="ocultarImagenes()">Ocultar Imágenes</button>
+    <button onclick="cambiarFondoPagina()">Cambiar Fondo de Página</button>
+    <button onclick="cambiarColoresTitulos()">Cambiar Colores de Títulos</button>
+<br>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="text" id="apellido" placeholder="Apellido">
+        <input type="number" id="edad" placeholder="Edad">
+        <input type="email" id="correo" placeholder="Correo Electrónico">
+        <button type="button" onclick="validarFormulario()">Enviar</button>
+    </form>
+
+    <div id="imagenes"></div>
+    <div id="resultado"></div>
+
+    <script src="accion.js"></script>
+</body>
+</html>
